@@ -6,11 +6,8 @@ _On-Site, Fast LiDAR-Motor Calibration for Quadruped-Robot 360° Perception_
 [![Paper](https://img.shields.io/badge/arXiv-2502.12655-b31b1b.svg)](https://arxiv.org/abs/2502.12655)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![ROS Noetic](https://img.shields.io/badge/ROS-Noetic-blue.svg)](http://wiki.ros.org/noetic)
-[![Build](https://github.com/kafeiyin00/LiMo-Calib/actions/workflows/ci.yml/badge.svg)](https://github.com/kafeiyin00/LiMo-Calib/actions)
 
-<div align="center">
-  <img src="docs/media/overview.png" width="75%" alt="LiMo-Calib system overview"/>
-</div>
+
 
 ---
 
