@@ -1,0 +1,12 @@
+<launch>
+
+  <node pkg="motor_lidar_calib" type="calibration_node" name="calibration_node" output="screen">
+      <!-- <param name="config_name" type="string" value="$(find rot_radar_lidar)/config/calib.yaml"/> -->
+      <rosparam file="$(find motor_lidar_calib/config/calib.yaml)" />
+  </node>
+
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find motor_lidar_calib)/rviz_cfg/rot_radar_lidar.rviz" />
+
+</launch>
+
+

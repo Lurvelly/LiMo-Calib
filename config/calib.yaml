@@ -1,0 +1,15 @@
+#topic
+lidar_topic: /livox/lidar
+radar_topic: /radar_pcl
+rotor_topic: /rotorpos
+
+#calibration
+calibration_angles: "0,-1.047,0"
+
+#input
+bagFilePath: /home/leo/catkin_ws/src/LiMo-Calib/data/a.bag
+bag_start: 0
+bag_durr: -1
+
+#output
+rotlidarFilePath: /home/leo/catkin_ws/src/LiMo-Calib/data/a.txt
