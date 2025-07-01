@@ -64,7 +64,7 @@ source devel/setup.bash
 ## Getting Started
 ```bash
 # visualize raw LiDAR & encoder data and convert ROS bag to TXT
- roslaunch Motor_LiDAR_Calib visualization.launch 
+ roslaunch motor_lidar_calib visualization.launch 
 
 #  convert ROS bag to TXT NQZ
  python scripts/convertTXT2NP.py 
